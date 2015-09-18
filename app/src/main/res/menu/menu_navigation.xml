@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:orderInCategory="1"
+        android:title="@string/menu_navigation_1"
+        android:icon="@drawable/google_pages" />
+
+    <item
+        android:orderInCategory="2"
+        android:title="@string/menu_navigation_2"
+        android:icon="@drawable/newspaper" />
+
+    <item
+        android:orderInCategory="3"
+        android:title="@string/menu_navigation_3"
+        android:icon="@drawable/thumb_up" />
+
+    <item
+        android:orderInCategory="4"
+        android:title="@string/menu_navigation_4"
+        android:icon="@drawable/magnify" />
+
+    <item
+        android:orderInCategory="5"
+        android:title="@string/menu_navigation_5"
+        android:icon="@drawable/view_quilt" />
+
+</menu>

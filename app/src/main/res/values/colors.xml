@@ -4,4 +4,5 @@
     <color name="colorSecondary">#fff</color>
     <color name="mainBackgroundColor">#707C3D</color>
     <color name="toolbarBackgroundColor">#209299</color>
+    <color name="navigationHeaderBackgroundColor">#771B89</color>
 </resources>
