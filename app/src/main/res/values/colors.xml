@@ -2,6 +2,6 @@
 <resources>
     <color name="colorPrimary">#000</color>
     <color name="colorSecondary">#fff</color>
-    <color name="mainBackgroundColor">#ccc</color>
-    <color name="toolbarBackgroundColor">#fff</color>
+    <color name="mainBackgroundColor">#707C3D</color>
+    <color name="toolbarBackgroundColor">#209299</color>
 </resources>
