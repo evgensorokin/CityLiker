@@ -6,6 +6,8 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorSecondary</item>
         <item name="android:windowFullscreen">true</item>
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
     <style name="AppDark" parent="AppTheme">
