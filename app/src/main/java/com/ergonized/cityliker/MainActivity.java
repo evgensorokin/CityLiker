@@ -1,10 +1,14 @@
 package com.ergonized.cityliker;
 
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
+import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+
+import com.ergonized.cityliker.adapter.TabsPagerFragmentAdapter;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -13,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
     private DrawerLayout drawerLayout;
+    private ViewPager viewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +27,16 @@ public class MainActivity extends AppCompatActivity {
 
         initToolbar();
         initNavigationView();
+        initTabs();
+    }
+
+    private void initTabs(){
+        viewPager = (ViewPager) findViewById(R.id.viewPager);
+        TabsPagerFragmentAdapter adapter = new TabsPagerFragmentAdapter(getSupportFragmentManager());
+        viewPager.setAdapter(adapter);
+
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabLayout);
+        tabLayout.setupWithViewPager(viewPager);
     }
 
     private void initToolbar(){
