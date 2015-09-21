@@ -7,4 +7,7 @@
     <string name="menu_navigation_4">Мой кабинет</string>
     <string name="menu_navigation_5">Рейтинг городов</string>
     <string name="fragment_first_text">Привет фрагмент</string>
+
+    <string name="view_navigation_open">Открыть</string>
+    <string name="view_navigation_closed">Закрыть</string>
 </resources>
