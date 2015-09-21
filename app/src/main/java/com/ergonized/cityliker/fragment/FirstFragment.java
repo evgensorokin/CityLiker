@@ -15,7 +15,7 @@ public class FirstFragment extends Fragment {
 
     private View view;
 
-    public static FirstFragment getInstans(){
+    public static FirstFragment getInstance(){
         Bundle args = new Bundle();
         FirstFragment fragment = new FirstFragment();
         fragment.setArguments(args);
@@ -27,7 +27,6 @@ public class FirstFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         view = inflater.inflate(LAYOUT, container, false);
-
-        return super.onCreateView(inflater, container, savedInstanceState);
+        return view;
     }
 }
